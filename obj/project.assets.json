@@ -369,6 +369,25 @@
           }
         }
       },
+      "Microsoft.Azure.AppConfiguration.AspNetCore/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.AzureAppConfiguration": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Azure.AppConfiguration.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Azure.AppConfiguration.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -1710,6 +1729,21 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.xml",
         "microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.webutilities.nuspec"
+      ]
+    },
+    "Microsoft.Azure.AppConfiguration.AspNetCore/7.0.0": {
+      "sha512": "onLEml0xN+4bb699sHV+jUJGiCuuBOwx83pOMiC2eO7vSwXNRDzQ6df+335RufUj8khJVrzQQtZ8hqyPa1EMRg==",
+      "type": "package",
+      "path": "microsoft.azure.appconfiguration.aspnetcore/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Microsoft.Azure.AppConfiguration.AspNetCore.dll",
+        "lib/net6.0/Microsoft.Azure.AppConfiguration.AspNetCore.xml",
+        "lib/net7.0/Microsoft.Azure.AppConfiguration.AspNetCore.dll",
+        "lib/net7.0/Microsoft.Azure.AppConfiguration.AspNetCore.xml",
+        "microsoft.azure.appconfiguration.aspnetcore.7.0.0.nupkg.sha512",
+        "microsoft.azure.appconfiguration.aspnetcore.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -3323,6 +3357,7 @@
     "net8.0": [
       "Microsoft.AspNetCore.Authentication.Cookies >= 2.2.0",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 8.0.2",
+      "Microsoft.Azure.AppConfiguration.AspNetCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.2",
       "Microsoft.Extensions.Configuration.AzureAppConfiguration >= 7.0.0",
       "Microsoft.Identity.Web >= 2.17.0",
@@ -3374,6 +3409,10 @@
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
             "target": "Package",
             "version": "[8.0.2, )"
+          },
+          "Microsoft.Azure.AppConfiguration.AspNetCore": {
+            "target": "Package",
+            "version": "[7.0.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

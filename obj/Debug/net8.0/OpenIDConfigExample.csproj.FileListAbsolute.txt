@@ -66,3 +66,4 @@ C:\Users\kmalyala\Desktop\All My Repro Codes\Customer Issues - Case Repros\OpenI
 C:\Users\kmalyala\Desktop\All My Repro Codes\Customer Issues - Case Repros\OpenIDConfigExample\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\kmalyala\Desktop\All My Repro Codes\Customer Issues - Case Repros\OpenIDConfigExample\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\kmalyala\Desktop\All My Repro Codes\Customer Issues - Case Repros\OpenIDConfigExample\bin\Debug\net8.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+C:\Users\kmalyala\Desktop\All My Repro Codes\Customer Issues - Case Repros\OpenIDConfigExample\bin\Debug\net8.0\Microsoft.Azure.AppConfiguration.AspNetCore.dll

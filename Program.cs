@@ -21,13 +21,6 @@ Console.WriteLine("App config connection String" + appConfigConnectionString);
 string appConfigPrefix = builder.Configuration["AppConfigPrefix"]!;
 Console.WriteLine("App config Prefix" + appConfigPrefix);
 
-builder.Services.AddAzureAppConfiguration();
-
-bool isAppConfigConnected = false;
-
-try
-{
-
 builder.Configuration.AddAzureAppConfiguration(options =>
 {
     options.Connect(appConfigConnectionString)
@@ -37,34 +30,12 @@ builder.Configuration.AddAzureAppConfiguration(options =>
     })
     .Select(KeyFilter.Any, appConfigPrefix)
     .ConfigureRefresh(refreshOptions => refreshOptions.Register(appConfigPrefix + ":Sentinel", appConfigPrefix, refreshAll: true));
-
-    isAppConfigConnected = true;
-    Console.WriteLine("connected", isAppConfigConnected);
 });
 
-}
-catch (Exception ex)
-{
-    Console.WriteLine("Error while connecting to app config");
-}
 
-
-/*builder.Services.AddScoped<IDepartmentService, DepartmentService>();
-builder.Services.AddScoped<ILOBService, LOBService>();
-builder.Services.AddScoped<IAccountService, AccountService>();
-builder.Services.AddScoped<IEntityService, EntityService>();*/
-
-if (isAppConfigConnected)
-{
-
-    builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
+builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
 .AddMicrosoftIdentityWebApp(builder.Configuration.GetSection(appConfigPrefix + ":AzureAd"));
     Console.WriteLine("connected in if");
-}
-else
-{
-    Console.WriteLine("connection failed");
-}
 
 //Console.WriteLine("App config Prefix" + clientId);
 

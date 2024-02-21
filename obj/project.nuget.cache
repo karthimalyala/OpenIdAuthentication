@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NdMWST3Ia+k8kMvuWmWtOen0zRQFXVQBrTjpO01tCIk54veOQFUJfN48H6jja36tLHz+IyFuEXKYswJ1i/SgTQ==",
+  "dgSpecHash": "NCwsC/5iDi64NdOfPDMu4n2O7i99eVQgl6Kb1q+cJxCHhBtRWT1+NaD+e/HGwuc6BmlA8yesEtqljfD6xwjr4w==",
   "success": true,
   "projectFilePath": "C:\\Users\\kmalyala\\Desktop\\All My Repro Codes\\Customer Issues - Case Repros\\OpenIDConfigExample\\OpenIDConfigExample.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\kmalyala\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\kmalyala\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\kmalyala\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
+    "C:\\Users\\kmalyala\\.nuget\\packages\\microsoft.azure.appconfiguration.aspnetcore\\7.0.0\\microsoft.azure.appconfiguration.aspnetcore.7.0.0.nupkg.sha512",
     "C:\\Users\\kmalyala\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\kmalyala\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.2\\microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
     "C:\\Users\\kmalyala\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.2\\microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",
