@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenIDConfigExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d087db4c6f1e0d303dc1db3e8e2d6b3517f70a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc3c8709b9b36ebd6494dba9c3440bfcc0b9a66e")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenIDConfigExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenIDConfigExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

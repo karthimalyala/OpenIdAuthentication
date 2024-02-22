@@ -12,6 +12,8 @@ using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
 builder.Configuration.SetBasePath(Directory.GetCurrentDirectory())
     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
     .AddEnvironmentVariables();
@@ -35,7 +37,7 @@ builder.Configuration.AddAzureAppConfiguration(options =>
 
 builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
 .AddMicrosoftIdentityWebApp(builder.Configuration.GetSection(appConfigPrefix + ":AzureAd"));
-    Console.WriteLine("connected in if");
+Console.WriteLine("connected in if");
 
 //Console.WriteLine("App config Prefix" + clientId);
 
@@ -72,3 +74,4 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
